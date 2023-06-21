@@ -1,0 +1,127 @@
+.choose-container {
+  padding: 0px 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.choose-title {
+  color: white;
+  font-weight: 700;
+  font-size: 70px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.choose-choose-us-text {
+  -webkit-background-clip: text;
+  background-image: linear-gradient(25deg, #2600fc, #ff00ea);
+  color: transparent;
+  transition: all 0.3s;
+}
+
+.choose-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(25deg, #2600fc, #ff00ea);
+  min-width: 60px;
+  height: 60px;
+  margin-left: 25px;
+  margin-top: 25px;
+  border-radius: 15px;
+}
+
+.choose-content-hand-img {
+  width: 310px;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.choose-content-container {
+  display: flex;
+  justify-content: row;
+  gap: 45px;
+}
+
+.choose-content-container-1,
+.choose-content-container-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.choose-box {
+  gap: 35px;
+  display: flex;
+  font-family: Noto Sans Georgian, sans-serif;
+  background-color: hsla(0, 0%, 100%, 0.05);
+  border: 1px solid hsla(0, 0%, 51%, 0.25);
+  border-radius: 25px;
+  max-height: 220px;
+  min-height: 165px;
+  min-width: 370px;
+}
+
+.choose-box-text p {
+  margin-top: -20px;
+  margin-right: 25px;
+  min-width: 160px;
+}
+
+h4 {
+  min-width: 185px;
+
+  margin-top: 20px;
+  font-family: Noto Sans Georgian, sans-serif;
+  font-size: 24px;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.fa-solid,
+.fa-regular {
+  color: white;
+  font-size: 28px;
+}
+
+@media (max-width: 750px) {
+  .choose-title {
+    font-size: 105px;
+  }
+
+  .choose-content-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 650px) {
+  .choose-title {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 485px) {
+  .choose-title {
+    font-size: 80px;
+  }
+  .choose-box {
+    min-width: 330px;
+  }
+}
+
+@media (max-width: 400px) {
+  .choose-title {
+    font-size: 70px;
+  }
+
+  .choose-box {
+    min-width: 300px;
+  }
+}

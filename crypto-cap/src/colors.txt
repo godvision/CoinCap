@@ -1,0 +1,10 @@
+gradient: linear-gradient(25deg,#2600fc,#ff00ea);
+hover: background-color: #200840;
+choose box color: background-color: hsla(0,0%,100%,.05);
+hero-top-section:   background-image: linear-gradient(0deg,#0f051d 30%,#130749 70%);
+nav-bottom-line: box-shadow: 0 10px 5px 0 rgba(0,0,0,.16);
+market-after-hero: background-color: #0f051d;
+
+url: https://coindom-crypto-search.vercel.app/#home
+
+font: font-family: 'Space Grotesk', sans-serif;

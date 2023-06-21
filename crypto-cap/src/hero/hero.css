@@ -1,0 +1,109 @@
+.title-text {
+  line-height: 1.1;
+  text-align: center;
+  font-size: 90px;
+  text-transform: uppercase;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text-title {
+  position: relative;
+}
+
+@keyframes updown {
+  0% {
+    top: 90px;
+  }
+  50% {
+    top: 65px;
+  }
+  100% {
+    top: 90px;
+  }
+}
+
+.btc-coin {
+  position: absolute;
+  top: 80px;
+  left: -70px;
+  width: 70px;
+  animation-name: updown;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.eth-coin {
+  position: absolute;
+  top: 80px;
+  right: -70px;
+  width: 70px;
+  animation-name: updown;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.title-span {
+  -webkit-background-clip: text;
+  background-image: linear-gradient(25deg, #2600fc, #ff00ea);
+  color: transparent;
+  transition: all 0.3s;
+}
+
+.top-4-images {
+  width: 85px;
+}
+
+.top-4-container {
+  display: flex;
+  gap: 100px;
+}
+
+.hero-coins {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.top-4-container p {
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.coin-current-hero {
+  margin-top: -15px;
+}
+.minus {
+  color: red;
+}
+
+.plus {
+  color: #0ecb81;
+}
+
+@media (max-width: 650px) {
+  .title-text {
+    font-size: 75px;
+  }
+}
+
+@media (max-width: 485px) {
+  .title-text {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 400px) {
+  .title-text {
+    font-size: 50px;
+  }
+}
